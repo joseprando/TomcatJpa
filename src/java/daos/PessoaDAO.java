@@ -10,6 +10,7 @@ public class PessoaDAO {
     private EntityManager em;
     
     public PessoaDAO() {
+        // Outro teste
         this.em = new ApplicationService().entityManager;
     }
     
