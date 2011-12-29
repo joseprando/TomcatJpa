@@ -10,7 +10,7 @@ public class PessoaDAO {
     private EntityManager em;
     
     public PessoaDAO() {
-        // Outro teste
+        // TESTE DO PANDOX
         this.em = new ApplicationService().entityManager;
     }
     
