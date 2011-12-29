@@ -10,7 +10,6 @@ public class PessoaDAO {
     private EntityManager em;
     
     public PessoaDAO() {
-        //this.em = JpaUtil.getEntityManager();
         this.em = new ApplicationService().entityManager;
     }
     
